@@ -1,6 +1,6 @@
 {
   "name": "leaflet-control-react",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "React component base class for a leaflet 'Control'",
   "main": "src/L.Control.React.js",
   "peerDependencies": {
