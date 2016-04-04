@@ -1,0 +1,16 @@
+{
+  "name": "leaflet-control-react",
+  "version": "0.0.0",
+  "description": "React component base class for a leaflet 'Control'",
+  "main": "src/L.Control.React.js",
+  "peerDependencies": {
+    "leaflet": "^0.7.0 || ~1.0.0-beta.2",
+    "react-dom": "^0.14.0 || ^15.0.0-rc.1"
+  },
+  "repositoriy": {
+    "type": "git",
+    "url": "git://github.com/boromisp/leaflet-control-react"
+  },
+  "author": "Peter Boromissza @MOHAnet",
+  "license": "ISC"
+}
