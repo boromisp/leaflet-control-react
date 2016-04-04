@@ -17,12 +17,15 @@
   'use strict';
   
   L.Control.React = L.Control.extend({
-    onAdd: function(map) {
+    render: function () {
+      ReactDOM.render(this.options.getElement(this._map), this._container);
+    },
+    onAdd: function () {
       this._container = L.DomUtil.create('div', 'leaflet-control-react');
-      ReactDOM.render(this.options.getElement(map), this._container);
+      this.render();
       return this._container;
     },
-    onRemove: function() {
+    onRemove: function () {
       ReactDOM.unmountComponentAtNode(this._container);
     }
   });
