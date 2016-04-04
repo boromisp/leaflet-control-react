@@ -6,6 +6,11 @@ Leaflet Control that renders a react component onto the map.
 
 The control is provided as a [UMD](https://github.com/umdjs/umd) module.
 
+The essence of it is 10 simple lines of code, you should just copy, paste and customize it. Or you could grab it from npm:
+```
+npm i leaflet-control-react
+```
+
 Basic usage:
 
 ```js
@@ -38,6 +43,10 @@ ReactDOM.render(this.options.getElement(this._map), this._container);
 when the control is added to the map, and anytime the `.render()` function is called.
 
 `position` - Inherited from `L.Control`
+
+## Methods
+
+`render()` - Re-renders the react component. Could be called to change top-level props for example.
 
 ## Events
 
